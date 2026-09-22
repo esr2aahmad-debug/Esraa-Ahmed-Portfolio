@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Esraa — Veterinarian, Medical Content Writer and SEO Content Writer">
+<title>Esraa | Medical Content Writer & SEO</title>
+<style>
+:root{--blue:#b9dcf3;--dark:#75a9ca;--ink:#263946;--muted:#637582;--soft:#f4faff;--line:#dcecf7;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fbfdff;line-height:1.7}
+a{text-decoration:none;color:inherit}.container{width:min(1080px,90%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:#ffffffe8;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:800;letter-spacing:.1em}.logo span{color:var(--dark)}
+.links{display:flex;gap:26px;font-size:.9rem;color:var(--muted)}.links a:hover{color:var(--dark)}
+.hero{padding:105px 0 90px;background:linear-gradient(135deg,#fbfdff,#eaf6fd)}
+.grid2{display:grid;grid-template-columns:1.25fr .75fr;gap:65px;align-items:center}
+.kicker,.eyebrow{color:#6397b7;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.75rem}
+h1{font-size:clamp(2.8rem,6vw,5rem);line-height:1.04;letter-spacing:-.05em;margin:14px 0 22px}
+h1 span{color:#73a8ca}h2{font-size:clamp(2rem,4vw,3rem);line-height:1.15;margin:8px 0 15px}h3{line-height:1.3}
+.hero p,.section-head p,.about p,.card p{color:var(--muted)}
+.hero>div>div>p{font-size:1.08rem;max-width:650px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:11px 19px;border-radius:999px;font-weight:750}
+.primary{background:var(--dark);color:#fff}.secondary{background:#fff;border:1px solid var(--line)}
+.profile{background:#fff;border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:0 18px 45px #45708b1c}
+.avatar{width:78px;height:78px;border-radius:23px;background:var(--blue);display:grid;place-items:center;font-size:1.8rem;margin-bottom:20px}
+section{padding:85px 0}.section-head{max-width:680px;margin-bottom:38px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px}.skills{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+.skill,.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:23px}
+.skill{background:var(--soft);font-weight:650}
+.services,.process{background:var(--soft)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.samples{display:grid;grid-template-columns:1fr 1fr;gap:18px}.sample{box-shadow:0 8px 25px #45708b0b}
+.num{color:#8ab7d2;font-size:.78rem;font-weight:800;letter-spacing:.1em}.sample h3{margin:8px 0}
+.tag{display:inline-block;background:#edf7fd;color:#5888a5;border-radius:99px;padding:4px 9px;font-size:.73rem;margin:8px 4px 0 0}
+.view{display:inline-block;margin-top:16px;color:#5b95ba;font-weight:800}.view:hover{text-decoration:underline}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.stepno{width:38px;height:38px;border-radius:12px;background:var(--blue);display:grid;place-items:center;font-weight:800;margin-bottom:16px}
+.contact{text-align:center;background:#eaf6fd}.contact p{max-width:650px;margin:auto;color:var(--muted)}.contact .buttons{justify-content:center}
+footer{text-align:center;padding:26px;color:#71818c;font-size:.83rem}
+@media(max-width:800px){.grid2,.about{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.links{display:none}}
+@media(max-width:560px){section{padding:65px 0}.hero{padding:75px 0}.cards,.samples,.steps,.skills{grid-template-columns:1fr}}
+
+.signature{margin-top:18px;color:#78a8c4;font-family:Georgia,serif;font-style:italic;font-size:.98rem}
+.hero{position:relative;overflow:hidden}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.hero:before{width:280px;height:280px;background:#dff1fb;right:-110px;top:-100px}
+.hero:after{width:170px;height:170px;background:#f0f8fc;left:-70px;bottom:-90px}
+.hero .container{position:relative;z-index:1}
+.profile{position:relative;overflow:hidden}
+.profile:after{content:"";position:absolute;width:110px;height:110px;border-radius:50%;background:#eef8fd;right:-35px;bottom:-45px}
+.avatar{font-family:Georgia,serif;color:#fff;background:linear-gradient(145deg,#b9dcf3,#8dbbd8)}
+.card{transition:transform .2s ease,box-shadow .2s ease}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(69,112,139,.09)}
+</style>
+</head>
+<body>
+<nav><div class="container nav">
+<a class="logo" href="#home">Esraa Ahmed</a>
+<div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#process">Approach</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero" id="home"><div class="container grid2">
+<div><div class="kicker">Medical Writing • SEO • Clear Communication</div>
+<h1>Medical knowledge,<br><span>clear content.</span></h1>
+<p>I’m a veterinarian and medical content writer who turns complex medical information into clear, useful and engaging content. My goal is simple: make information easier to understand for readers, while helping healthcare brands build trust and reach the right audience through search.</p>
+<div class="buttons"><a class="btn primary" href="#work">View my work</a><a class="btn secondary" href="#contact">Let’s work together</a></div></div>
+<div class="profile"><div class="avatar">✦</div><h3>Esraa</h3><p>Small Animal Veterinarian · Medical Content Writer · SEO Content Writer</p><br><p>Based in Egypt · Available for remote projects</p><div class="signature">clear words, meaningful content.</div></div>
+</div></header>
+
+<section id="about"><div class="container about">
+<div><div class="eyebrow">01 — About me</div><h2>I make complex medical information feel simple.</h2>
+<p>I’m a veterinarian and medical content writer with hands-on clinical experience in small-animal practice. My clinical background has taught me how to understand medical information, communicate it clearly, and approach health topics from both a professional and reader’s perspective.<br><br>Today, I bring that medical background into content writing, creating clear, engaging and search-focused content that helps readers understand complex topics and helps healthcare brands build trust with their audience.</p><br>
+<p>I combine medical knowledge with content writing and SEO principles to create content that is accurate, useful, engaging and aligned with what people are actually searching for.</p></div>
+<div><div class="eyebrow">Core skills</div><p style="margin-top:8px;color:#637582;font-size:.92rem">Medical accuracy, human language and thoughtful structure.</p><div class="skills">
+<div class="skill">Medical Content</div><div class="skill">Medical Writing</div><div class="skill">SEO Content</div><div class="skill">Search Intent</div><div class="skill">Content Research</div><div class="skill">On-Page SEO</div><div class="skill">Arabic Content</div>
+</div></div></div></section>
+
+<section class="services" id="services"><div class="container"><div class="section-head"><div class="eyebrow">02 — What I can do</div><h2>Content built around people and search.</h2></div>
+<div class="cards">
+<div class="card"><h3>Medical Content</h3><p>Clear, reader-focused content covering health topics, conditions, treatments and patient education.</p></div>
+<div class="card"><h3>SEO Content</h3><p>Search-focused content structured around user intent, relevant keywords and clear information architecture.</p></div>
+<div class="card"><h3>Health & Product Content</h3><p>Informative and persuasive content for health, beauty and consumer-focused products.</p></div>
+<div class="card"><h3>Health & Product Content</h3><p>Informative and persuasive content for health, beauty and consumer-focused products.</p></div>
+<div class="card"><h3>Content Optimization</h3><p>Improving existing content for structure, readability, search intent and SEO.</p></div>
+<div class="card"><h3>Arabic & English</h3><p>Creating and adapting content for Arabic- and English-speaking audiences.</p></div>
+</div></div></section>
+
+<section id="work">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">03 — Selected work</div>
+<h2>Writing samples</h2>
+<p>A selection of medical, health and product-focused writing samples, showing different content formats and search intents.</p>
+</div>
+
+<div class="samples">
+
+<article class="card sample">
+<div class="num">01 / MEDICAL CONTENT</div>
+<h3>Difference Between Classic & Mini Gastric Bypass</h3>
+<p>A patient-friendly medical article explaining the difference between two bariatric surgery approaches and helping readers understand the key distinctions.</p>
+<span class="tag">Informative</span><span class="tag">Medical</span><span class="tag">Arabic</span>
+<br><a class="view" href="https://docs.google.com/document/d/1qizz04Q0QIQ-6PBSgEcWKfUgI5laDX7g/edit?usp=drivesdk&ouid=107966053594065162633&rtpof=true&sd=true" target="_blank" rel="noopener">Read article →</a>
+</article>
+
+<article class="card sample">
+<div class="num">02 / MEDICAL CONTENT</div>
+<h3>Ways to Strengthen Children's Immunity</h3>
+<p>Educational health content focused on practical ways parents can support children's immune health.</p>
+<span class="tag">Informative</span><span class="tag">Health</span><span class="tag">Arabic</span>
+<br><a class="view" href="https://docs.google.com/document/d/1RT3g4umrltTs8wryc4h5-THHd9HmbZ_W1AVq_DRxSLo/edit?usp=drivesdk" target="_blank" rel="noopener">Read article →</a>
+</article>
+
+<article class="card sample">
+<div class="num">03 / HEALTH SEO</div>
+<h3>Diet Plan for Losing Belly Fat</h3>
+<p>Search-focused health content addressing a common reader question with practical, accessible information.</p>
+<span class="tag">Informative</span><span class="tag">SEO Content</span><span class="tag">Arabic</span>
+<br><a class="view" href="https://docs.google.com/document/d/1cR8a89TAv2Ftr1RAKf9BmkJx8f5vsNxbx55JxziCblI/edit?usp=drivesdk" target="_blank" rel="noopener">Read article →</a>
+</article>
+
+<article class="card sample">
+<div class="num">04 / HEALTH & PRODUCT</div>
+<h3>Coffee Slimming Cream: Specifications & Uses</h3>
+<p>Product-focused health content explaining product information and what readers should know before use.</p>
+<span class="tag">Informative</span><span class="tag">Product Content</span><span class="tag">Arabic</span>
+<br><a class="view" href="https://docs.google.com/document/d/1a1tBZosipWj6L22Cr5nJDke7Ybb__hBjwa_9jx5RpMw/edit?usp=drivesdk" target="_blank" rel="noopener">Read article →</a>
+</article>
+
+<article class="card sample">
+<div class="num">05 / BEAUTY & PRODUCT</div>
+<h3>Best Hair Creams & Prices</h3>
+<p>Consumer-focused content designed to help readers compare product options and make a more informed choice.</p>
+<span class="tag">Commercial Investigation</span><span class="tag">Product Content</span><span class="tag">Arabic</span>
+<br><a class="view" href="https://docs.google.com/document/d/1oFgxR4z6l6_H-JjCy-tv6bLjMYM0fkVhdkXtrDcb_lE/edit?usp=drivesdk" target="_blank" rel="noopener">Read article →</a>
+</article>
+
+
+
+</div></div>
+</section>
+
+<section class="process" id="process"><div class="container"><div class="section-head"><div class="eyebrow">04 — My approach</div><h2>From search intent to useful content.</h2></div>
+<div class="steps">
+<div class="card"><div class="stepno">01</div><h3>Understand</h3><p>I identify what the user is actually looking for before planning the content.</p></div>
+<div class="card"><div class="stepno">02</div><h3>Research</h3><p>I research the topic using reliable medical and scientific sources.</p></div>
+<div class="card"><div class="stepno">03</div><h3>Build</h3><p>I organize information into a clear structure with useful headings and natural keyword usage.</p></div>
+<div class="card"><div class="stepno">04</div><h3>Optimize</h3><p>I review content for readability, SEO elements, accuracy and user experience.</p></div>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="container"><div class="eyebrow">05 — Contact</div><h2>Let’s work together.</h2>
+<p>I’m available for remote medical, health and SEO content projects. If you’re looking for a writer who combines medical knowledge with content and SEO skills, I’d be happy to discuss your project.</p>
+<div class="buttons"><a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email me</a><a class="btn secondary" href="YOUR_LINKEDIN_URL" target="_blank">LinkedIn</a></div>
+</div></section>
+<footer>© 2026 Esraa Ahmed · Medical Content Writer</footer>
+</body></html>
